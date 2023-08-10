@@ -4,7 +4,7 @@ function OnEvent(event,arg)
         if IsMouseButtonPressed(3)then
             repeat
 		        if IsKeyLockOn("capslock")then
-			        recoil = 6
+			        recoil = 12
 		        else
 			        recoil = 0
 		        end
